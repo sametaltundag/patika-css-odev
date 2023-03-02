@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(203, 203, 203);
+}
+
+li {
+
+    display: inline;
+    
+    font-family: cursive;
+    font-weight: bold;
+    
+    
+}
+a{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 0.7s;
+}
+
+a:hover {
+    background-color: black;
+    color:white ;
+}
+
+
