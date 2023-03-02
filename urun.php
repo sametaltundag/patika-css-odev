@@ -11,7 +11,26 @@
 </head>
 <body>
 
-<?php echo "Naber" ?>
+<?php
+
+if(isset($_GET['id'])) {
+
+    $urunkod=$_GET['id'];
+}
+?>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <img class="img-fluid" src="img/<?php echo $urunkod ?>.png">
+        </div>
+
+        <div class="text-center mb-5">
+            <a href="index.html" class="btn btn-secondary">Anasayfaya Git</a>
+        </div>
+    </div>
+    
+</div>
 
 
 <script src="js/bootstrap.bundle.min.js"></script>
